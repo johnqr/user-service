@@ -1,12 +1,10 @@
 package http
 
 import (
-	"net/http"
-
 	"github.com/gorilla/mux"
 )
 
-func NewUserRouter(handler *UserHandler) http.Handler {
+func NewUserRouter(handler *UserHandler) *mux.Router {
 	r := mux.NewRouter()
 
 	r.Use(RequestLogger)
