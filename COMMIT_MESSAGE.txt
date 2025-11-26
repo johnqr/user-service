@@ -1,0 +1,1 @@
+feat: initial user-service api (http + grpc) - estructura, repositorios, servicio, handlers, proto stubs, tests

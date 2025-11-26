@@ -1,0 +1,10 @@
+/bin/
+/vendor/
+*.exe
+*.log
+*.out
+*.zip
+.env
+*.test
+.vscode/
+/.migrations/
